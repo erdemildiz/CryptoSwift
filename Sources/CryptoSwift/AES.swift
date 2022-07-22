@@ -52,7 +52,7 @@ public final class AES: BlockCipher {
   @usableFromInline
   internal let variantNk: Int
 
-  public static let blockSize: Int = 16 // 128 /8
+  public static let blockSize: Int = 8 // 128 /8
   public let keySize: Int
 
   /// AES Variant
